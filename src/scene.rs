@@ -1,4 +1,10 @@
-pub struct Colour {
+pub struct Point {
+    pub x: f64,
+    pub y: f64,
+    pub z: f64,
+}
+
+pub struct Color {
     pub red: f32,
     pub green: f32,
     pub blue: f32,
@@ -7,7 +13,7 @@ pub struct Colour {
 pub struct Sphere{
     pub center: Point,
     pub radius: f64,
-    pub colour: Colour,
+    pub color: Color,
 }
 
 pub struct Scene{
